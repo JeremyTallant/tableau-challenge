@@ -60,8 +60,18 @@ A homepage and three dashboards were made from the citibike data.
 <img width="1426" alt="Screenshot 2023-02-13 at 5 31 51 PM" src="https://user-images.githubusercontent.com/112406455/218598439-9bccde87-fcf3-4da7-9fe3-80d229359f45.png">
 
 ### User Analysis 
-This dashboard analyzes trips based on user type, gender, and age. It also contains an analysis of trips based on hours and weekdays and total number of trips per month.
+* This dashboard analyzes trips based on user type, gender, and age. It also contains an analysis of trips based on hours and weekdays and total number of trips per month.
 <img width="1426" alt="Screenshot 2023-02-13 at 5 32 45 PM" src="https://user-images.githubusercontent.com/112406455/218599192-abf1dfc0-9a14-4d48-8a7a-683cdbf34528.png">
+
+### Station Analysis
+* This dashboard analyzes trips based on stations. It also contains comparisons between weekdays and weekends and then average trip duration of each month.
+<img width="1425" alt="Screenshot 2023-02-13 at 5 33 02 PM" src="https://user-images.githubusercontent.com/112406455/218600480-f7e3f38e-2424-4950-b594-a03e5ae015c4.png">
+
+### Geographic Analysis
+* This dashboard contains two maps and the location of the start and end station. The size and color of the marker indicates the total number of trips that started or ended at each station.
+<img width="1425" alt="Screenshot 2023-02-13 at 5 33 31 PM" src="https://user-images.githubusercontent.com/112406455/218600539-d287fd71-6f8b-4e2d-805a-e60477abd38b.png">
+
+
 
 
    
