@@ -31,7 +31,7 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
     
 ## Data Source
 1. The first step of the process was gathering all the monthly csv files (January 2018 - December 2020) from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and storing them in a folder called "data".
-2. Then I created a Jupyter Notebook file called "citibike.ipynb" to clean and merge all the monthly csv files into one csv file to load into Tableau.
+2. Then I created a Jupyter Notebook file called "[citibike.ipynb](https://github.com/JeremyTallant/tableau-challenge/blob/main/citibike.ipynb)" to clean and merge all the monthly csv files into one csv file to load into Tableau.
 3. Here is the step by step process of the data cleansing:
    * First import pandas.
    <img width="1084" alt="Screenshot 2023-02-13 at 4 46 14 PM" src="https://user-images.githubusercontent.com/112406455/218593152-ef1d9f47-2703-4376-b778-635b99482c6f.png">
