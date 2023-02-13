@@ -53,7 +53,17 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
    <img width="1212" alt="Screenshot 2023-02-13 at 4 47 14 PM" src="https://user-images.githubusercontent.com/112406455/218595280-98ac8c4d-2ebb-4a97-a187-dd6978def8f7.png">
    
    **Please note that the large size of the CSV files precludes their storage in this repository and in GitHub's Large File Storage. As a result, the CSV files have been added to a .gitignore file.**
-   
+## Dashboards
+A homepage and three dashboards were made from the citibike data.
+### Homepage
+* The homepage gives a brief overview of the project and gives a quick description of the contents of each dashboard.
+<img width="1426" alt="Screenshot 2023-02-13 at 5 31 51 PM" src="https://user-images.githubusercontent.com/112406455/218598439-9bccde87-fcf3-4da7-9fe3-80d229359f45.png">
+
+### User Analysis 
+This dashboard analyzes trips based on user type, gender, and age. It also contains an analysis of trips based on hours and weekdays and total number of trips per month.
+<img width="1426" alt="Screenshot 2023-02-13 at 5 32 45 PM" src="https://user-images.githubusercontent.com/112406455/218599192-abf1dfc0-9a14-4d48-8a7a-683cdbf34528.png">
+
+
    
 
 
