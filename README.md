@@ -7,7 +7,7 @@ Since 2013, the Citi Bike program has implemented a robust infrastructure for co
 
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
 ## Deployment
-Here is the link to the tableau dashboard: https://public.tableau.com/app/profile/jeremy.tallant/viz/citibike_16762569400730/Story1
+Here is the link to the Tableau dashboard: https://public.tableau.com/app/profile/jeremy.tallant/viz/citibike_16762569400730/Story1
 ## Instructions
 Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.
 
@@ -31,3 +31,34 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
     
 ## Data Source
 1. The first step of the process was gathering all the monthly csv files (January 2018 - December 2020) from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and storing them in a folder called "data".
+2. Then I created a Jupyter Notebook file called "citibike.ipynb" to clean and merge all the monthly csv files into one csv file to load into Tableau.
+3. Here is the step by step process of the data cleansing:
+   * First import pandas.
+   <img width="1084" alt="Screenshot 2023-02-13 at 4 46 14 PM" src="https://user-images.githubusercontent.com/112406455/218593152-ef1d9f47-2703-4376-b778-635b99482c6f.png">
+   
+   * Read in all csv files for a single year in a pandas dataframe, store in a list, and then concatenate into a single dataframe.
+   <img width="1215" alt="Screenshot 2023-02-13 at 4 46 27 PM" src="https://user-images.githubusercontent.com/112406455/218593900-1df2f2c1-927b-4650-abd3-517e8054c5f9.png">
+   
+   * Repeat the step for the remaining years.
+   <img width="1215" alt="Screenshot 2023-02-13 at 4 46 35 PM" src="https://user-images.githubusercontent.com/112406455/218594370-6c34b4b1-e184-434d-a8af-b0717afd70ca.png">
+   <img width="1214" alt="Screenshot 2023-02-13 at 4 46 43 PM" src="https://user-images.githubusercontent.com/112406455/218594455-7beeab76-a39d-4349-92a5-043a16a05235.png">
+   
+   * Combine all three dataframes into a single dataframe.
+   <img width="1212" alt="Screenshot 2023-02-13 at 4 46 58 PM" src="https://user-images.githubusercontent.com/112406455/218594806-4331abbd-8cc4-49c1-8bfc-fd6b105899eb.png">
+   
+   * Change the values in the gender column from the numerical value to the actual value.
+   <img width="1214" alt="Screenshot 2023-02-13 at 4 47 07 PM" src="https://user-images.githubusercontent.com/112406455/218595129-b560a3d6-92a1-48fd-b9bd-e8cb1d643ae1.png">
+   
+   * Then save the dataframe to a csv file.
+   <img width="1212" alt="Screenshot 2023-02-13 at 4 47 14 PM" src="https://user-images.githubusercontent.com/112406455/218595280-98ac8c4d-2ebb-4a97-a187-dd6978def8f7.png">
+   
+   **Please note that the large size of the CSV files precludes their storage in this repository and in GitHub's Large File Storage. As a result, the CSV files have been added to a .gitignore file.**
+   
+   
+
+
+
+
+
+
+
