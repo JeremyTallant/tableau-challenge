@@ -7,7 +7,7 @@ Since 2013, the Citi Bike program has implemented a robust infrastructure for co
 
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
 ## Deployment
-Here is the link to the Tableau dashboard: https://public.tableau.com/app/profile/jeremy.tallant/viz/citibike_16762569400730/Story1
+Please find below the link to the Tableau dashboard, showcasing the results of the analysis: https://public.tableau.com/app/profile/jeremy.tallant/viz/citibike_16762569400730/Story1
 ## Instructions
 Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.
 
@@ -30,16 +30,16 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
     * Ensure your presentation is professional, logical, and visually appealing.
     
 ## Data Source
-1. The first step of the process was gathering all the monthly csv files (January 2018 - December 2020) from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and storing them in a folder called "data".
-2. Then I created a Jupyter Notebook file called "[citibike.ipynb](https://github.com/JeremyTallant/tableau-challenge/blob/main/citibike.ipynb)" to clean and merge all the monthly csv files into one csv file to load into Tableau.
-3. Here is the step by step process of the data cleansing:
+1. The initial stage of the project involved acquiring all the monthly CSV files, covering the period from January 2018 to December 2020, from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and organizing them in a designated folder named "data".
+2. Subsequently, I established a Jupyter Notebook file, named "[citibike.ipynb](https://github.com/JeremyTallant/tableau-challenge/blob/main/citibike.ipynb)", to systematically clean and combine all the monthly CSV files into a single CSV file, in preparation for importing into Tableau.
+3. The following is a comprehensive overview of the data cleansing process:
    * First import pandas.
    <img width="1084" alt="Screenshot 2023-02-13 at 4 46 14 PM" src="https://user-images.githubusercontent.com/112406455/218593152-ef1d9f47-2703-4376-b778-635b99482c6f.png">
    
    * Read in all csv files for a single year in a pandas dataframe, store in a list, and then concatenate into a single dataframe.
    <img width="1215" alt="Screenshot 2023-02-13 at 4 46 27 PM" src="https://user-images.githubusercontent.com/112406455/218593900-1df2f2c1-927b-4650-abd3-517e8054c5f9.png">
    
-   * Repeat the step for the remaining years.
+   * Repeat step for the remaining years.
    <img width="1215" alt="Screenshot 2023-02-13 at 4 46 35 PM" src="https://user-images.githubusercontent.com/112406455/218594370-6c34b4b1-e184-434d-a8af-b0717afd70ca.png">
    <img width="1214" alt="Screenshot 2023-02-13 at 4 46 43 PM" src="https://user-images.githubusercontent.com/112406455/218594455-7beeab76-a39d-4349-92a5-043a16a05235.png">
    
@@ -54,21 +54,21 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
    
    **Please note that the large size of the CSV files precludes their storage in this repository and in GitHub's Large File Storage. As a result, the CSV files have been added to a .gitignore file.**
 ## Dashboards
-A homepage and three dashboards were made from the citibike data.
+From the Citi Bike data, a homepage and three corresponding dashboards were created to provide a comprehensive analysis and visualization of the data.
 ### Homepage
-* The homepage gives a brief overview of the project and gives a quick description of the contents of each dashboard.
-<img width="1426" alt="Screenshot 2023-02-13 at 5 31 51 PM" src="https://user-images.githubusercontent.com/112406455/218598439-9bccde87-fcf3-4da7-9fe3-80d229359f45.png">
+* The homepage serves as an introduction to the project, providing a succinct overview of its purpose and contents. It succinctly summarizes the key insights and findings of each dashboard, allowing for quick and easy navigation.
+<img width="1425" alt="Screenshot 2023-02-13 at 8 21 56 PM" src="https://user-images.githubusercontent.com/112406455/218622889-c2c2e218-99cc-4f3f-989b-e50da7169004.png">
 
 ### User Analysis 
-* This dashboard analyzes trips based on user type, gender, and age. It also contains an analysis of trips based on hours and weekdays and total number of trips per month.
+* The dashboard presents a comprehensive analysis of the Citi Bike trips, taking into account various factors such as user type, gender, and age. Additionally, it provides an in-depth examination of trip patterns based on the hour of day and day of the week, as well as the total number of trips per month.
 <img width="1426" alt="Screenshot 2023-02-13 at 5 32 45 PM" src="https://user-images.githubusercontent.com/112406455/218599192-abf1dfc0-9a14-4d48-8a7a-683cdbf34528.png">
 
 ### Station Analysis
-* This dashboard analyzes trips based on stations. It also contains comparisons between weekdays and weekends and then average trip duration of each month.
-<img width="1425" alt="Screenshot 2023-02-13 at 5 33 02 PM" src="https://user-images.githubusercontent.com/112406455/218600480-f7e3f38e-2424-4950-b594-a03e5ae015c4.png">
+* The dashboard focuses on the analysis of trips in relation to the bike stations. It compares the trip patterns between weekdays and weekends and provides insights into the average trip duration for each month.
+<img width="1424" alt="Screenshot 2023-02-13 at 8 22 32 PM" src="https://user-images.githubusercontent.com/112406455/218623090-2424212c-a74c-4962-a0a4-8cb6698d0327.png">
 
 ### Geographic Analysis
-* This dashboard contains two maps and the location of the start and end station. The size and color of the marker indicates the total number of trips that started or ended at each station.
+* The third dashboard features two maps showcasing the geographical locations of the start and end stations. The size and color of the markers are used to represent the total number of trips that originated or terminated at each station, providing a visual representation of the trip patterns and frequency.
 <img width="1425" alt="Screenshot 2023-02-13 at 5 33 31 PM" src="https://user-images.githubusercontent.com/112406455/218600539-d287fd71-6f8b-4e2d-805a-e60477abd38b.png">
 
 **A user-friendly interface has been created utilizing Tableau dashboards, allowing for seamless navigation between pages. Please access the link in the deployment section to explore the interactive dashboard and gain valuable insights.**
