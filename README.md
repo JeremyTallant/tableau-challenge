@@ -78,7 +78,7 @@ A homepage and three dashboards were made from the citibike data.
 
 * An evaluation of the data covering the time period from 2018 to 2020 shows a total of 1,095,641 trips made using bicycles in New York City. This represents a decrease of 4.83% over the three-year period. The observed decline in trips can be attributed to the adverse effects of the COVID-19 pandemic, including the associated shutdowns, on the usage of bicycles.
 * A comparison of the data from 2018 to 2020 reveals a decrease of 30.20% in the number of subscribers, while there was a simultaneous increase of 374.90% in the number of customers. This disparity in trends can be attributed to the impact of the COVID-19 pandemic on the usage of bicycles in New York City.
-* Over the specified time period, there appears to be a positive trend in the number of female riders, with an increase of 12.55%, while the number of male riders has decreased by -22.29%. While the reason for this trend is not definitively known, it could potentially be attributed to improved safety and security measures for female riders. Further analysis would be required to establish this hypothesis.
+* Over the specified time period, there appears to be a positive trend in the number of female riders, with an increase of 12.55%, while the number of male riders has decreased by 22.29%. While the reason for this trend is not definitively known, it could potentially be attributed to improved safety and security measures for female riders. Further analysis would be required to establish this hypothesis.
 
 <img width="822" alt="Screenshot 2023-02-13 at 6 46 50 PM" src="https://user-images.githubusercontent.com/112406455/218609202-043e2682-5796-42c4-91c1-5bdad3f347ad.png">
 
@@ -96,6 +96,17 @@ A homepage and three dashboards were made from the citibike data.
 
 * The analysis of the data indicates that the majority of bicycle riders in New York City belong to the age group of 29 to 43, with a prevalence of male riders among this demographic.
 
+<img width="1163" alt="Screenshot 2023-02-13 at 7 19 08 PM" src="https://user-images.githubusercontent.com/112406455/218614331-c7e16678-be24-4ba5-a91e-700b3da6248a.png">
+
+* An examination of the data reveals a disparity in the number of start stations compared to the number of end stations.
+
+<img width="812" alt="Screenshot 2023-02-13 at 7 19 16 PM" src="https://user-images.githubusercontent.com/112406455/218614627-d3fa0863-5a3d-4b8b-ad3b-6ccdf6c28036.png">
+
+* The analysis of the data, as depicted in the chart, indicates that Grove St PATH and Hamilton Park are the most frequently used stations for both starting and ending trips.
+
+<img width="615" alt="Screenshot 2023-02-13 at 7 19 20 PM" src="https://user-images.githubusercontent.com/112406455/218615289-c4ec6639-0ecd-4d15-9ada-11ac052315d8.png">
+
+* An examination of the graph presenting the average trip duration, measured in minutes, per month reveals a noteworthy increase in 2020 compared to the average trip durations in 2018 and 2019. This deviation can be attributed to the closure of businesses and an increased amount of time spent outdoors, particularly during the summer months, as a result of the COVID-19 pandemic. 
 
    
 
