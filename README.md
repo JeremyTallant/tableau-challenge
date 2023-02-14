@@ -30,7 +30,7 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
     * Ensure your presentation is professional, logical, and visually appealing.
     
 ## Data Source
-1. The initial stage of the project involved acquiring all the monthly CSV files, covering the period from January 2018 to December 2020, from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and organizing them in a designated folder named "data".
+1. The initial stage of the project involved acquiring all the monthly CSV files, covering the period from January 2018 to December 2020, from the [Citi Bike Data](https://citibikenyc.com/system-data) webpage and organizing them in a designated folder named "data". The data used in this analysis specifically pertains to the Jersey City region.
 2. Subsequently, I established a Jupyter Notebook file, named "[citibike.ipynb](https://github.com/JeremyTallant/tableau-challenge/blob/main/citibike.ipynb)", to systematically clean and combine all the monthly CSV files into a single CSV file, in preparation for importing into Tableau.
 3. The following is a comprehensive overview of the data cleansing process:
    * First import pandas.
