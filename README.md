@@ -71,7 +71,30 @@ A homepage and three dashboards were made from the citibike data.
 * This dashboard contains two maps and the location of the start and end station. The size and color of the marker indicates the total number of trips that started or ended at each station.
 <img width="1425" alt="Screenshot 2023-02-13 at 5 33 31 PM" src="https://user-images.githubusercontent.com/112406455/218600539-d287fd71-6f8b-4e2d-805a-e60477abd38b.png">
 
+**A user-friendly interface has been created utilizing Tableau dashboards, allowing for seamless navigation between pages. Please access the link in the deployment section to explore the interactive dashboard and gain valuable insights.**
 
+## Summary
+<img width="986" alt="Screenshot 2023-02-13 at 6 17 04 PM" src="https://user-images.githubusercontent.com/112406455/218605560-74bbe56a-b822-4b78-b39e-956f143bfffa.png">
+
+* An evaluation of the data covering the time period from 2018 to 2020 shows a total of 1,095,641 trips made using bicycles in New York City. This represents a decrease of 4.83% over the three-year period. The observed decline in trips can be attributed to the adverse effects of the COVID-19 pandemic, including the associated shutdowns, on the usage of bicycles.
+* A comparison of the data from 2018 to 2020 reveals a decrease of 30.20% in the number of subscribers, while there was a simultaneous increase of 374.90% in the number of customers. This disparity in trends can be attributed to the impact of the COVID-19 pandemic on the usage of bicycles in New York City.
+* Over the specified time period, there appears to be a positive trend in the number of female riders, with an increase of 12.55%, while the number of male riders has decreased by -22.29%. While the reason for this trend is not definitively known, it could potentially be attributed to improved safety and security measures for female riders. Further analysis would be required to establish this hypothesis.
+
+<img width="822" alt="Screenshot 2023-02-13 at 6 46 50 PM" src="https://user-images.githubusercontent.com/112406455/218609202-043e2682-5796-42c4-91c1-5bdad3f347ad.png">
+
+* It is noteworthy that the peak utilization of citibikes in New York City occurs during the weekday, specifically during the hours of 8 a.m. and 5 p.m., as a significant number of commuters utilize bicycles for their daily commute.
+
+<img width="589" alt="Screenshot 2023-02-13 at 6 56 45 PM" src="https://user-images.githubusercontent.com/112406455/218610532-c600a3e0-0abc-431d-bb29-5a2d90f447e7.png">
+
+* An examination of the data reveals that the pattern of peak bicycle usage in New York City remained consistent during 2018 and 2019, with the busiest periods occurring during the weekdays. However, in 2020, a notable deviation from this trend emerged, with weekends experiencing the highest levels of bicycle usage. This shift can likely be attributed to the widespread adoption of remote work as a result of the COVID-19 pandemic. 
+
+<img width="621" alt="Screenshot 2023-02-13 at 7 05 26 PM" src="https://user-images.githubusercontent.com/112406455/218611841-d35104a1-4fe0-4b5b-9669-f3fc596f4eb4.png">
+
+* A review of the data by month reveals that the highest usage of bicycles in New York City occurs during the summer months of July, August, and September, in comparison to the winter months. In April of 2020, a marked decrease in bicycle usage was observed, which can be attributed to the restrictions imposed during the early stages of the COVID-19 pandemic.
+
+<img width="602" alt="Screenshot 2023-02-13 at 7 05 30 PM" src="https://user-images.githubusercontent.com/112406455/218612417-bc985457-005a-453f-a641-3425d3a01e91.png">
+
+* The analysis of the data indicates that the majority of bicycle riders in New York City belong to the age group of 29 to 43, with a prevalence of male riders among this demographic.
 
 
    
