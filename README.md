@@ -56,7 +56,7 @@ Your task in this assignment is to aggregate the data found in the Citi Bike Tri
 ## Dashboards
 From the Citi Bike data, a homepage and three corresponding dashboards were created to provide a comprehensive analysis and visualization of the data.
 ### Homepage
-* The homepage serves as an introduction to the project, providing a succinct overview of its purpose and contents. It succinctly summarizes the key insights and findings of each dashboard, allowing for quick and easy navigation.
+* The homepage serves as an introduction to the project, providing a concices overview of its purpose and contents. It clearly summarizes the key insights and findings of each dashboard, allowing for quick and easy navigation.
 <img width="1425" alt="Screenshot 2023-02-13 at 8 21 56 PM" src="https://user-images.githubusercontent.com/112406455/218622889-c2c2e218-99cc-4f3f-989b-e50da7169004.png">
 
 ### User Analysis 
