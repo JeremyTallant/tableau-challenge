@@ -108,7 +108,13 @@ A homepage and three dashboards were made from the citibike data.
 
 * An examination of the graph presenting the average trip duration, measured in minutes, per month reveals a noteworthy increase in 2020 compared to the average trip durations in 2018 and 2019. This deviation can be attributed to the closure of businesses and an increased amount of time spent outdoors, particularly during the summer months, as a result of the COVID-19 pandemic. 
 
-   
+<img width="1254" alt="Screenshot 2023-02-13 at 7 46 06 PM" src="https://user-images.githubusercontent.com/112406455/218617657-e904b6a8-31b1-4f15-be80-ba9c807653b9.png">
+
+* An analysis of the start station map highlights the concentration of the most frequently used stations in Jersey City, New Jersey, primarily in the zip codes 07302 and 07310. This suggests that the residents of Jersey City utilize the bicycle-sharing service extensively, potentially due to its cost-effectiveness when compared to other transportation options, such as taxis and ride-sharing services.
+
+<img width="1252" alt="Screenshot 2023-02-13 at 7 46 55 PM" src="https://user-images.githubusercontent.com/112406455/218618488-3f4ff112-edab-4dfa-8e52-92d6ddc2e050.png">
+
+* Similar to the start station map, the end station map also illustrates a notable concentration of the most frequently used stations in Jersey City, New Jersey, indicating that residents are likely utilizing the bicycle-sharing service for their commutes to and from work. 
 
 
 
